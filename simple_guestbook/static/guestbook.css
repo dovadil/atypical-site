@@ -1,0 +1,35 @@
+/*
+    This is a static (non-templated) CSS file. It's served up as-is.
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* Example of using a static image in static CSS */
+    background-image: url("/static/happy-light.png");
+}
+
+body, body {
+    display: flex;
+}
+
+form input, textarea {
+    font-size: 12pt;
+}
+
+.guestbook-form {
+    margin: auto;
+}
+
+.thank-you {
+    margin: auto;
+}
+
+.error-text {
+    color: red;
+}
+
+.happy {
+    text-align: center;
+}
