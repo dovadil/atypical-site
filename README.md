@@ -13,8 +13,8 @@ example has been customized for aTypical Events.
     * `sudo apt install nginx python3-pip git`
 3. Install pipenv, which will make working with virtual environments easier.
     * `sudo pip3 install pipenv`
-4. Clone this repository (or, preferably, your own fork of it) to the "/var/www/simple-guestbook" folder.
-    * `sudo git clone https://github.com/jerryryle/simple-guestbook.git /var/www/simple-guestbook`
+4. Clone this repository to the "/var/www/simple-guestbook" folder.
+    * `sudo git clone https://github.com/jerryryle/atypical-site.git /var/www/simple-guestbook`
 5. Change the user/group permissions on the folder so that you don't need to sudo to modify it and so the web services
    can access it.
     * `sudo chown -R $USER:www-data /var/www/simple-guestbook`
